@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+#game-area {
+  position: relative;
+  width: 80vw;
+  height: 60vh;
+  margin: 20px auto;
+  background-color: white;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.target {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
